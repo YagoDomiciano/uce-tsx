@@ -1,6 +1,11 @@
 import Card from "./Card.tsx"
 import Contador from "./Contador.tsx"
 import IMC from "./imc.tsx"
+import ListaFiltrada from './listafiltrada.tsx'
+import ListaSimples from './listasimples.tsx'
+import ListaTarefas from './listatarefas.tsx'
+import ListaApi from './listaapi.tsx'
+import TarefasPorUsuario from './tarefasporusuario.tsx'
 
 function App() {
   return (
@@ -16,6 +21,11 @@ function App() {
       />
       <Contador/>
       <IMC/>
+      <ListaSimples/>
+      <ListaTarefas/>
+      <ListaFiltrada/>
+      <ListaApi/>
+      <TarefasPorUsuario/>
     </div>
   );
 }
