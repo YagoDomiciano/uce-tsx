@@ -6,6 +6,11 @@ import ListaSimples from './listasimples.tsx'
 import ListaTarefas from './listatarefas.tsx'
 import ListaApi from './listaapi.tsx'
 import TarefasPorUsuario from './tarefasporusuario.tsx'
+import ListaPosts from "./listaposts.tsx"
+import Usuarios from "./Usuarios.tsx"
+import TarefasFiltro from "./TarefasFiltro.tsx"
+import BuscaPosts from "./BuscaPosts.tsx"
+import ComentariosPost from "./ComentariosPost.tsx"
 
 function App() {
   return (
@@ -26,6 +31,11 @@ function App() {
       <ListaFiltrada/>
       <ListaApi/>
       <TarefasPorUsuario/>
+      <ListaPosts/>
+      <Usuarios/>
+      <TarefasFiltro/>
+      <BuscaPosts/>
+      <ComentariosPost/>
     </div>
   );
 }
